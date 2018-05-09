@@ -17,13 +17,13 @@ require_once DOKU_PLUGIN.'action.php';
 
 class action_plugin_grouphome extends DokuWiki_Action_Plugin {
 
-    public function register(Doku_Event_Handler &$controller) {
+    public function register(Doku_Event_Handler $controller) {
 
        $controller->register_hook('ACTION_ACT_PREPROCESS', 'BEFORE', $this, 'handle_hook');
 
     }
 
-    public function handle_hook(Doku_Event &$event, $param) {
+    public function handle_hook(Doku_Event $event, $param) {
         global $INFO;
         global $ID;
         global $conf;
