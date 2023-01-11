@@ -1,7 +1,7 @@
 base   grouphome
 author Andreas Gohr
 email  gohr@cosmocode.de
-date   2018-05-09
+date   2023-01-11
 name   grouphome plugin
 desc   Redirect logged in users from the start page to their primary group's homepage
 url    http://www.dokuwiki.org/plugin:grouphome
